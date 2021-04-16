@@ -1,9 +1,9 @@
-name: 'Slack Notify'
+name: 'Personal Slack Notify'
 description: 'This action will send a notification to Slack'
-author: 'rtCamp'
+author: 'Charlie'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/rtcamp/action-slack-notify:v2.1.3'
+  image: 'docker://hub.docker.com/zhangcz828/action-slack-notify:v2.1.3'
 branding:
   icon: 'bell'
   color: 'yellow'
